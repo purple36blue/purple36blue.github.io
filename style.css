@@ -1,0 +1,55 @@
+
+body{
+    background-image: url("img/wallpaperflare.com_wallpaper (2).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.254);
+    font-size: medium;
+    font-weight: bold;
+    color:black;
+}
+
+.pencarian {
+    background: rgba(4, 11, 17, 0.483);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.pencarian:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.foto {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 20px;
+    padding-top: 30px;
+}
+
+.foto img {
+    align-content: center;
+    border-radius: 50%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.gambar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
